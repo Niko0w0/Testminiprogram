@@ -1,0 +1,7 @@
+<!-- 
+    1 长按文字复制 selectable
+    2 对文本内容 进行 解码 decode
+ -->
+<text selectable decode>
+    text&nbsp;123 &lt;
+    </text>

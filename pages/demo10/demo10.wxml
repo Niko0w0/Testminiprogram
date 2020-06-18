@@ -1,0 +1,31 @@
+<!-- 
+    轮播图外层容器 swiper
+    每个轮播项 swiper-item
+    swiper标签 存在默认样式
+        width 100%
+        height 150px    image 存在默认宽度和高度 320 * 240
+        swiper 高度 无法实现由内容撑开
+    先找出来原图的宽度和高度 等比例给swiper定宽度和高度
+        swiper 宽度 / swiper 高度 = 原图的宽度 / 原图的高度
+    
+    autoplay 自动轮播
+    interval 修改轮播时间
+    circular 衔接轮播
+    indicator-dots 显示 指示器 分页部 索引器
+    indicator-color 显示指示器的未选择的颜色
+    indicator-active-color 选中的时候指示器的颜色
+ -->
+
+<swiper autoplay interval="1000" circular indicator-dots indicator-color="#0094ff" indicator-active-color="#ff0094">
+    <swiper-item >
+        <image mode="aspectFit" src="https://s1.ax1x.com/2020/06/17/NA1pct.png"></image>
+    </swiper-item>
+    <swiper-item >
+        <image mode="aspectFit" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592367189160&di=01f5c6c3dfd680ff2777565cc5c06074&imgtype=0&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D1851070523%2C2016093990%26fm%3D214%26gp%3D0.jpg"></image>
+    </swiper-item>
+    <swiper-item >
+        <image mode="aspectFit" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592367248319&di=4aea2c28aa8a3ed2d29345671840c2e7&imgtype=0&src=http%3A%2F%2Fa.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2Fe824b899a9014c08061cab3c0a7b02087bf4f400.jpg"></image>
+    </swiper-item>
+    
+    
+</swiper>
