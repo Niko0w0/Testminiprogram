@@ -1,5 +1,12 @@
 {
   "pages":[
+    "pages/demo18/demo18",
+    "pages/demo17/demo17",
+    "pages/demo16/demo16",
+    "pages/demo15/demo15",
+    "pages/demo14/demo14",
+    "pages/demo13/demo13",
+    "pages/demo12/demo12",
     "pages/demo11/demo11",
     "pages/demo10/demo10",
     "pages/demo09/demo09",
@@ -26,8 +33,8 @@
   },
   "tabBar": {
     "list": [{
-      "pagePath": "pages/demo11/demo11",
-      "text": "demo11",
+      "pagePath": "pages/demo18/demo18",
+      "text": "demo18",
       "iconPath": "icon/dairy.png",
       "selectedIconPath": "icon/record.png"
     },

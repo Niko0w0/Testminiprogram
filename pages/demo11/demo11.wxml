@@ -1,2 +1,20 @@
-<!--pages/demo11/demo11.wxml-->
-<text>pages/demo11/demo11.wxml</text>
+<!-- 
+    导航组件 navigator
+        块级元素 默认会换行 可以直接加宽度和高度
+        url 要跳转的页面路径 绝对路径 相对路径
+        target 要跳转到当前的小程序 还是其他小程序的夜绵绵
+            self 默认值 自己小程序页面
+            miniProgram 其他的小程序页面
+        open-type 跳转的方式
+            navigate 默认值 保留当前页面，跳转到应用内的某个页面，但是不能跳转到tabbar页面
+            redirect 关闭当前页面，跳转到应用内的某个页面，但是不允许跳转到tabbar页面
+            switchTab 跳转到tabbar页面，并关闭其他所有非tabbar页面
+            reLaunch 关闭所有页面，打开到应用内的某个页面
+ -->
+ <navigator url="/pages/demo10/demo10">跳转至轮播图</navigator>
+ <navigator url="/pages/index/index">跳转至tabbar页面</navigator>
+ <navigator open-type="redirect" url="/pages/demo10/demo10">跳转至轮播图 redirect</navigator>
+ <navigator open-type="switchTab" url="/pages/index/index">swtichTab 跳转至tabbar页面</navigator>
+ <navigator open-type="reLaunch" url="/pages/index/index">reLaunch 可以随便跳</navigator>
+
+
